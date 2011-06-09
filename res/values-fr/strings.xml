@@ -88,8 +88,6 @@
     <string name="battery_info_health_over_voltage" msgid="2420269351664490121">"Voltage dépassé"</string>
     <string name="battery_info_health_unspecified_failure" msgid="6347021103185471590">"Erreur inconnue"</string>
     <string name="bluetooth" msgid="5549625000628014477">"Bluetooth"</string>
-    <string name="bluetooth_discoverable_duration_title">Durée de l\'annonce</string>
-    <string name="bluetooth_discoverable_duration_summary">Temps pendant lequel l\'appareil est identifiable</string>
     <string name="bluetooth_visibility" msgid="2930835434091839916">"Identifiable"</string>
     <string name="bluetooth_is_discoverable" msgid="1205694503775884903">"Identifiable pendant <xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g> secondes..."</string>
     <string name="bluetooth_not_discoverable" msgid="128269993123955177">"Permettre l\'identification de l\'appareil"</string>
@@ -421,7 +419,6 @@
     <string name="wifi_tether_configure_subtext" msgid="1927454307836232128">"Point d\'accès Wi-Fi mobile <xliff:g id="NETWORK_SSID">%1$s</xliff:g> <xliff:g id="NETWORK_SECURITY">%2$s</xliff:g>"</string>
     <string name="wifi_tether_configure_ssid_default" msgid="8467525402622138547">"AndroidHotspot"</string>
     <string name="sound_settings_title" msgid="8735891486683305886">"Son"</string>
-    <string name="profile_settings_title">Profils</string>
     <string name="display_settings_title" msgid="1708697328627382561">"Affichage"</string>
     <string name="sound_settings" msgid="5007659014828162881">"Paramètres sonores"</string>
     <string name="silent_mode_title" msgid="3181479108593217704">"Mode silencieux"</string>
@@ -461,10 +458,8 @@
     <string name="sound_effects_enable_summary_on" msgid="6154141289879491329">"Jouer un son lors des sélections à l\'écran"</string>
     <string name="sound_effects_enable_summary_off" msgid="3447739581759560125">"Jouer un son lors des sélections à l\'écran"</string>
     <string name="lock_sounds_enable_title" msgid="1575990840389107141">"Verrouillage de l\'écran"</string>
-    <string name="lock_sounds_enable_summary_on" msgid="145741024028391473">"Emettre un son au verrouillage de l\'écran"</string>
-    <string name="lock_sounds_enable_summary_off" msgid="8481243116223542804">"Emettre un son au verrouillage de l\'écran"</string>
-    <string name="power_sounds_enable_title">Alerte de batterie faible</string>
-    <string name="power_sounds_enable_summary">Emettre un son lorsque le niveau de batterie est faible</string>
+    <string name="lock_sounds_enable_summary_on" msgid="145741024028391473">"Émettre un son lorsque l\'écran est verrouillé ou déverrouillé"</string>
+    <string name="lock_sounds_enable_summary_off" msgid="8481243116223542804">"Émettre un son lorsque l\'écran est verrouillé ou déverrouillé"</string>
     <string name="haptic_feedback_enable_title" msgid="6311736559245411290">"Retour haptique"</string>
     <string name="haptic_feedback_enable_summary_on" msgid="1875779656524793053">"Vibrer à l\'utilisation de touches programmables et d\'autres options"</string>
     <string name="haptic_feedback_enable_summary_off" msgid="7287885436963105314">"Vibrer à l\'utilisation de touches programmables et d\'autres options"</string>
@@ -480,7 +475,7 @@
     <string name="dock_not_found_title" msgid="3290961741828952424">"Station d\'accueil introuvable"</string>
     <string name="dock_not_found_text" msgid="3035260358985111855">"Pour configurer les paramètres audio de la station d\'accueil, vous devez placer le téléphone sur cette dernière."</string>
     <string name="dock_sounds_enable_title" msgid="3659084028644948905">"Insertion dans la station d\'accueil"</string>
-    <string name="dock_sounds_enable_summary_on" msgid="8491180514199743771">"Emettre un son lorsque le téléphone est inséré dans la station d\'accueil ou retiré de celle-ci"</string>
+    <string name="dock_sounds_enable_summary_on" msgid="8491180514199743771">"Émettre un son lorsque le téléphone est inséré dans la station d\'accueil ou retiré de celle-ci"</string>
     <string name="dock_sounds_enable_summary_off" msgid="3151046599205265919">"N\'émettre aucun son lorsque le téléphone est inséré dans la station d\'accueil ou retiré de celle-ci"</string>
     <string name="sync_settings" msgid="9186125469300013491">"Comptes et synchro"</string>
     <string name="sync_settings_summary" msgid="2962179505214965667">"Ajouter ou supprimer des comptes et modifier leurs paramètres"</string>
@@ -522,10 +517,6 @@
     <string name="device_info_settings" msgid="475872867864762157">"État du téléphone"</string>
     <string name="system_update_settings_list_item_title" msgid="3342887311059985961">"Mises à jour du système"</string>
     <string name="system_update_settings_list_item_summary" msgid="3853057315907710747"></string>
-    <!-- About phone screen, status item label -->
-    <string name="cpu_info">Infos CPU</string>
-    <!-- About phone screen, status item label -->
-    <string name="mem_info">Infos mém. (disp./total)</string>
     <string name="firmware_version" msgid="4801135784886859972">"Version d\'Android"</string>
     <string name="model_number" msgid="3765737700545384794">"Numéro du modèle"</string>
     <string name="baseband_version" msgid="1848990160763524801">"Version de bande de base"</string>
@@ -1229,9 +1220,7 @@
     <string name="profile_summary">Toucher pour modifier le profil</string>
     <string name="profile_appgroup_title">Groupe d\'applications: %s</string>
     <string name="profile_appgroups_title">Groupes d\'applications</string>
-    <string name="profile_volumeoverrides_title">Volumes personnalisés</string>
-    <string name="profile_volumeoverrides_summary">Définir le volume.</string>
-    <string name="profile_applist_title">Applications - Enlever du groupe</string>
+    <string name="profile_applist_title">Applications - toucher pour enlever du groupe</string>
     <string name="profile_appgroup_name_prompt">Entrer le nom du groupe d\'applications</string>
     <string name="profile_delete">Effacer le profil</string>
     <string name="profile_delete_confirm">Etes-vous sur de vouloir effacer ce profil ?</string>
@@ -1274,8 +1263,7 @@
     <string name="sound_category_sound_title" msgid="1488759370067953996">"Paramètres généraux"</string>
     <string name="sound_category_calls_title" msgid="3688531959256239012">"Appels entrants"</string>
     <string name="sound_category_notification_title" msgid="3502115998790286943">"Notifications"</string>
-    <string name="launcher_settings_title">Accueil</string>
-
+  
     <string name="possibleButtons">Interrupteurs disponibles</string>
     <string name="toggleWifi">Wi-Fi</string>
     <string name="toggleWifiAp">Hotspot Wi-Fi mobile</string>
@@ -1359,7 +1347,7 @@
     <!-- Widget Picker -->
     <string name="widget_count">(%d widgets)</string>
 
-    <string name="cm_settings_title">CyanogenMod</string>
+    <string name="cm_settings_title">COS</string>
     <string name="sound_category_feedback_title" msgid="4399742321363475393">"Retour sonore"</string>
     <string name="wimax_settings" msgid="1574837328738396794">"Paramètres 4G"</string>
     <string name="wimax_settings_summary" msgid="3207355006084135453">"Configurer et gérer le réseau et le modem 4G"</string>
